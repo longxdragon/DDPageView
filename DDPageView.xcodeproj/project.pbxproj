@@ -15,6 +15,7 @@
 		3D2801451F0B2A1B00262097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2801431F0B2A1B00262097 /* LaunchScreen.storyboard */; };
 		3D2801501F0B2A1B00262097 /* DDPageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28014F1F0B2A1B00262097 /* DDPageViewTests.m */; };
 		3D28015B1F0B2A1B00262097 /* DDPageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28015A1F0B2A1B00262097 /* DDPageViewUITests.m */; };
+		3D28016B1F0B2CF000262097 /* DDPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D28016A1F0B2CF000262097 /* DDPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3D2801561F0B2A1B00262097 /* DDPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D28015A1F0B2A1B00262097 /* DDPageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDPageViewUITests.m; sourceTree = "<group>"; };
 		3D28015C1F0B2A1B00262097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2801691F0B2CF000262097 /* DDPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPageView.h; sourceTree = "<group>"; };
+		3D28016A1F0B2CF000262097 /* DDPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		3D2801341F0B2A1B00262097 /* DDPageView */ = {
 			isa = PBXGroup;
 			children = (
+				3D2801681F0B2CE100262097 /* DDPageView */,
 				3D2801381F0B2A1B00262097 /* AppDelegate.h */,
 				3D2801391F0B2A1B00262097 /* AppDelegate.m */,
 				3D28013B1F0B2A1B00262097 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				3D28015C1F0B2A1B00262097 /* Info.plist */,
 			);
 			path = DDPageViewUITests;
+			sourceTree = "<group>";
+		};
+		3D2801681F0B2CE100262097 /* DDPageView */ = {
+			isa = PBXGroup;
+			children = (
+				3D2801691F0B2CF000262097 /* DDPageView.h */,
+				3D28016A1F0B2CF000262097 /* DDPageView.m */,
+			);
+			path = DDPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				3D28013D1F0B2A1B00262097 /* ViewController.m in Sources */,
 				3D28013A1F0B2A1B00262097 /* AppDelegate.m in Sources */,
 				3D2801371F0B2A1B00262097 /* main.m in Sources */,
+				3D28016B1F0B2CF000262097 /* DDPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +521,7 @@
 				3D2801611F0B2A1B00262097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D2801621F0B2A1B00262097 /* Build configuration list for PBXNativeTarget "DDPageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				3D2801641F0B2A1B00262097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D2801651F0B2A1B00262097 /* Build configuration list for PBXNativeTarget "DDPageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				3D2801671F0B2A1B00262097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
